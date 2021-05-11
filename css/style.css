@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.main {
+  background: #2d4059;
+  max-width: 600px;
+  width: 660px;
+  text-align: center;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  line-height: 40px;
+}
+
+@media (max-width: 480px) {
+  .main .main {
+    color: red;
+  }
+}
+
+main::after {
+  content: "";
+  width: 300%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.logo2 {
+  background: #0a4f51;
+  max-width: 600px;
+  width: 660px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+}
+
+.logo2::after {
+  content: "";
+  width: 200%;
+  height: 200%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.logo3 {
+  max-width: 600px;
+  padding-top: 30px;
+  width: 660px;
+  padding-bottom: 30px;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  background: #292929;
+}
+
+.logo3::after {
+  content: "";
+  width: 200%;
+  height: 200%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.logo4 {
+  max-width: 600px;
+  padding-top: 60px;
+  width: 660px;
+  padding-bottom: 60px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  position: relative;
+  background: #9311f5;
+}
+
+.logo4::after {
+  content: "";
+  width: 200%;
+  height: 200%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.logo5 {
+  max-width: 600px;
+  padding-top: 60px;
+  width: 660px;
+  padding-bottom: 60px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  position: relative;
+  background: #882425;
+}
+
+.logo5::after {
+  content: "";
+  width: 200%;
+  height: 200%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.logo6 {
+  max-width: 600px;
+  padding-top: 60px;
+  width: 660px;
+  padding-bottom: 60px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  position: relative;
+  background: #47274d;
+}
+
+.logo6::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.logo7 {
+  max-width: 600px;
+  padding-top: 60px;
+  width: 660px;
+  padding-bottom: 60px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  position: relative;
+  background: #000;
+}
+
+.logo7::after {
+  content: "";
+  width: 200%;
+  height: 200%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.logo8 {
+  max-width: 600px;
+  margin-top: 40px;
+  padding-top: 60px;
+  width: 660px;
+  padding-bottom: 60px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  position: relative;
+  background: #41228e;
+}
+
+.logo8::after {
+  content: "";
+  width: 200%;
+  height: 200%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.25;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0) 100%);
+}
